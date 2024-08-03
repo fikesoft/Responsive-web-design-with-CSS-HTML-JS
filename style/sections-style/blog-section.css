@@ -1,0 +1,81 @@
+.blog{
+    padding: 150px 0;
+}
+
+.blog-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.blog_title{
+    font-family: 'Cormorant' , serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.menu-blog_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 58px;       
+}
+
+.menu-blog_item{
+    display: flex;
+    gap: 20px;
+    flex-basis: calc(50% - 29px);
+    }
+.blog_img{
+    width: 100%;
+    max-width: 270px;
+    max-height: 180px;
+}
+.menu_content{
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+}
+.menu-blog_title{
+    font-family: 'Cormorant' , serif;
+    font-size: 24px;
+    font-weight: 400;
+    min-height: 86px;
+    margin-bottom: 10px;
+    overflow: hidden; /* Prevent text overflow */
+    text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+    display: -webkit-box; /* Display as box model for truncation */
+    line-clamp: 3; /* IT needs to de defined for more compability */ 
+    -webkit-line-clamp: 3; /* Limit text to 3 lines */
+    -webkit-box-orient: vertical; /* Set box orientation to vertical */
+}
+.menu-blog_item-author {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.menu-blog_item-link{
+    position: relative;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: auto;
+    align-items: center; /* Center the text and arrow vertically */
+}
+
+.menu-blog_item-link::after{
+    position: absolute;
+    content: ""; 
+    background: url(/img/left-arrow.svg) no-repeat; 
+    width: 5px; 
+    height: 10px; 
+    margin-left: 8px; 
+    bottom: -1px;
+    transform: translate(-50%, -50%); 
+}
+
+.blog-view_link{
+    padding: 12px 42px;
+    border: 1px #151618 solid;
+    font-size: 20px;
+}
+

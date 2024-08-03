@@ -1,0 +1,92 @@
+.subscribe{
+    background: #F7F2EA;
+    padding: 100px 0px;
+    background-image: url(/img/subscription-hero.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.subscribe_inner{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.subscribe_title{
+    font-family: 'Cormorant' , serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+.subscribe_inner_content{
+    display: flex;
+    align-items: flex-start;
+    gap:   60px 40px;
+}
+.subscribe_text{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.subscribe-input{
+    width: 100%;
+    max-width:  100%;
+    min-width:  439px;
+    border: none;
+    border-bottom: 1px solid #B8B58B; 
+    background-color: transparent;
+    padding: 18px 0px 4px 15px;
+    line-height: 1.5;
+    outline: none;
+    font-size: 20px;
+    font-weight: 300;
+    color: #151618;
+    font-family: 'Open Sans' , sans-serif;
+;
+
+}
+
+.subscribe-input::placeholder{
+    font-size: 20px;
+    font-weight: 300;
+    color: #B8B58B;
+    
+}
+
+.subscribe_button{
+    padding: 12px 41px ;
+    border: 1px solid #151618;
+    background: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Open Sans' , sans-serif;
+    cursor: pointer;
+
+}
+
+.subscribe__form{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.subscribe-content{
+    display: flex;
+    gap: 25px;
+}
+.form-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.checkbox{
+    width: 10px;
+    height: 10px;
+    outline: none;
+    border: 1px solid #151618;
+
+}
+.form-text{
+    font-size: 13px;
+    font-weight: 300;
+}
+
+

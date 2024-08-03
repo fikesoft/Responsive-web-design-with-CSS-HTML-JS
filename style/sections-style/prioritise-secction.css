@@ -1,0 +1,41 @@
+.prioritise-inner{
+    padding: 150px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+.title-prioritise{
+    font-size: 40px;
+    font-family: 'Cormorant' , sans-serif;
+    font-weight: 400;
+}
+.prioritise-menu-list{
+    display: flex;
+    gap: 49px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prioritise-menu-item{
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.prioritise-item-title{
+    font-size: 30px;
+    font-weight: 300;
+}
+.prioritise-item-text{
+    font-size: 20px;
+    font-weight:600; 
+}
+.prioritise-item-img{
+    width: 100%;
+    margin-top: 30px;
+    max-width: 60px;
+}
+
